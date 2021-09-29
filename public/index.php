@@ -119,7 +119,7 @@ foreach ($tags as $tag) {
 $posts = Post::all();
 
 foreach ($posts as $post) {
-    $post->tags()->attach(rand(1,5));
-    $post->tags()->attach(rand(1,5));
-    $post->tags()->attach(rand(1,5));
+    $post->tags()->attach(1);
+    $post->tags()->attach(2);
+    $post->tags()->attach(3);
 };
