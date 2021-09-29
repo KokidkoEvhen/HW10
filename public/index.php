@@ -4,6 +4,8 @@ require_once '../vendor/autoload.php';
 require_once '../config/eloquent.php';
 
 use Hillel\Models\Category;
+use Hillel\Models\Post;
+use Hillel\Models\Tag;
 
 //$categories = [
 //    [
@@ -39,3 +41,52 @@ use Hillel\Models\Category;
 
 //$category = Category::find(1);
 //$category->delete();
+
+//$posts = [
+//    [
+//        'title' => 'post1',
+//        'slug' => 'post1',
+//        'body' => 'post1',
+//        'category_id' => '2'
+//    ],
+//    [
+//        'title' => 'post2',
+//        'slug' => 'post2',
+//        'body' => 'post2',
+//        'category_id' => '3'
+//    ],
+//    [
+//        'title' => 'post3',
+//        'slug' => 'post3',
+//        'body' => 'post3',
+//        'category_id' => '4'
+//    ],
+//     [
+//        'title' => 'post4',
+//        'slug' => 'post4',
+//        'body' => 'post4',
+//        'category_id' => '2'
+//    ],
+//    [
+//        'title' => 'post2',
+//        'slug' => 'post2',
+//        'body' => 'post2',
+//        'category_id' => '3'
+//    ],
+//    [
+//        'title' => 'post5',
+//        'slug' => 'post5',
+//        'body' => 'post5',
+//        'category_id' => '4'
+//    ],
+//];
+
+//foreach ($posts as $post) {
+//    Post::create($post);
+//}
+
+//$post = Post::find(2);
+//$post->title = 'New title';
+//$post->category_id = 2;
+//$post->save();
+
